@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>reservation</title>
+        <style>
+          body {
+            background-image: url(../assets/reserved.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:cover;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  .navbar {
+  overflow: hidden;
+  background-color: rgb(168, 90, 38);
+  border-radius: 18px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(255, 255, 255, 0.356);
+  }
+</style>
+        <body>
+        </br>
+        <div class="navbar" style="margin-left: 48.5%;margin-right: 47%;">
+            <a href="../index.html">Home</a>
+            
+      </div>
+            <div align="left" style="margin-top: 3cm;margin-left: 23cm;font-size: 18px;color:rgba(255, 255, 255, 0.822);">
+                
+                    <h1 style="color: black;">RESERVE YOUR TABLE</h1>
+                <b>Name: </b>
+                <input type="text" name="UserName" size=34 maxlength=34 value=""></br></br>
+                <b>Mail Id: </b>
+                <input type="email" name="mail" size=33 maxlength=33 value=""> </br> </br>
+                <b>Contact Number: </b>
+                <input type="tel" name="number" size=21 maxlength=21 value=""> </br> </br>
+                <b>Number of people:</b>
+                <input type="number" name="seats" size=11 maxlength=2 value=""> </br> </br>
+                <b>Date and Time:  </b>
+                <input type="datetime-local" name="seats" size=12 maxlength=5 value=""> </br> </br>
+                </div>
+                <div align="left" style="margin-left: 28cm;font-size: 20px;">
+                <input type="button" onclick="alert('YOUR TABLE IS BOOKED SUCCESSFULLY...')" value="Submit!">
+                </div>  
+            
+        </body>
+    </head>
+</html>
